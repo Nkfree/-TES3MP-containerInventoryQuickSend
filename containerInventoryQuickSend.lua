@@ -31,6 +31,11 @@ local function OnPlayerInventoryValidator(eventStatus, pid)
     local action = tes3mp.GetInventoryChangesAction(pid)
     local itemChangesCount = tes3mp.GetInventoryChangesSize(pid)
     local currentTime = os.time()
+    
+    local drawState = tes3mp.GetDrawState(pid)
+    if drawState == 1 then
+        return customEventHooks.makeEventStatus(true, true)
+    end
 
     if action == enumerations.inventory.ADD and currentTime == onContainerTimestamp[pid] then
 
