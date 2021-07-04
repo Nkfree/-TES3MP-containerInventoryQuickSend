@@ -15,3 +15,6 @@ Two different outcomes depending on the player's drawstate
 
 ## Showcase
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ko5Cab7C0LI/0.jpg)](https://www.youtube.com/watch?v=Ko5Cab7C0LI)
+
+## Credits for the idea
+Tes3-Azurame
